@@ -1,0 +1,35 @@
+# Environment variables
+.env
+!.env.example
+
+# Data directories
+data/workspace/*
+!data/workspace/.gitkeep
+data/logs/*
+!data/logs/.gitkeep
+
+# Backups
+backups/*
+!backups/.gitkeep
+
+# SSL certificates
+*.key
+*.pem
+*.crt
+
+# Nginx logs
+nginx/logs/*
+!nginx/logs/.gitkeep
+
+# Temporary files
+*.tmp
+*.log
+*.swp
+
+# Editor directories
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
